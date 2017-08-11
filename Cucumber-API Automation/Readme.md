@@ -1,15 +1,15 @@
-Prerequisites: 
-Install java 
-Install eclipse 
-Install maven, junit and cucumber plugins in Eclipse 
-Import this project with maven 
-Update config.properties with valid details 
-run RunOtc.java file with junit runner
+Prerequisites: <br />
+Install java <br />
+Install eclipse <br />
+Install maven, junit and cucumber plugins in Eclipse <br />
+Import this project with maven <br />
+Update config.properties with valid details <br />
+run RunOtc.java file with junit runner<br />
 
 
 
 
-Author: 
-Harpreet Singh Rikhi
-Karan Ahuja
+Author: <br />
+Harpreet Singh Rikhi<br />
+Karan Ahuja<br />
 Rakesh Kumar
