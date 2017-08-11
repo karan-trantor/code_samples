@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.cucumber.stepdefinition.CustomReport"/>
+  </listeners>
+  <test name="UI Test(failed)" parallel="none">
+    <classes>
+      <class name="com.cucumber.stepdefinition.RunCukeTest">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.cucumber.stepdefinition.RunCukeTest -->
+    </classes>
+  </test> <!-- UI Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

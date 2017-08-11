@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: com&#x2F;cucumber&#x2F;feature&#x2F;homepage_validations.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: adbeat UI test</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verify monthly spends on advertisers list cards</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I launch adbeat url (passed : 40s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I can see following &#x27;Advertiser Cards&#x27; and there monthly spend at home page (passed : 18s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I close the browser (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66716" started-at="2017-05-22T12:20:37Z" finished-at="2017-05-22T12:21:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.cucumber.stepdefinition.RunCukeTest@2b2948e2]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="UI Test" duration-ms="66716" started-at="2017-05-22T12:20:37Z" finished-at="2017-05-22T12:21:44Z">
+      <class name="com.cucumber.stepdefinition.RunCukeTest">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.cucumber.stepdefinition.RunCukeTest@2b2948e2]" name="run_cukes" duration-ms="66695" started-at="2017-05-22T17:50:37Z" description="Runs Cucumber Features" finished-at="2017-05-22T17:51:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: com&#x2F;cucumber&#x2F;feature&#x2F;homepage_validations.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: adbeat UI test</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verify monthly spends on advertisers list cards</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I launch adbeat url (passed : 40s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I can see following &#x27;Advertiser Cards&#x27; and there monthly spend at home page (passed : 18s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I close the browser (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method status="PASS" signature="mainFinal()[pri:0, instance:com.cucumber.stepdefinition.RunCukeTest@2b2948e2]" name="mainFinal" is-config="true" duration-ms="149" started-at="2017-05-22T17:51:44Z" finished-at="2017-05-22T17:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainFinal -->
+      </class> <!-- com.cucumber.stepdefinition.RunCukeTest -->
+    </test> <!-- UI Test -->
+  </suite> <!-- Suite -->
+</testng-results>
